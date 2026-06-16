@@ -25,7 +25,7 @@ This project predicts whether rainfall will occur based on weather parameters su
 8. Model Evaluation using Cross Validation and Accuracy Metrics
 9. Model Serialization using Pickle
 
-##Features
+## Features
 
 - Weather data preprocessing
 - Correlation analysis and visualization
@@ -35,13 +35,13 @@ This project predicts whether rainfall will occur based on weather parameters su
 - Model saving and loading using Pickle
 
 
-##Results
+## Results
 
 - Achieved reliable classification performance using Random Forest.
 - Used cross-validation to improve model generalization.
 - Reduced bias caused by class imbalance through downsampling.
 
-##Future Improvements
+## Future Improvements
 
 - SMOTE for class balancing
 - PCA for dimensionality reduction
