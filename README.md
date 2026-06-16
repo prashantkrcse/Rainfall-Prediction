@@ -49,4 +49,5 @@ This project predicts whether rainfall will occur based on weather parameters su
 - Deployment as a Flask/Web application
 
 
-Author : Prashant Kumar
+## Author : 
+**Prashant Kumar**
