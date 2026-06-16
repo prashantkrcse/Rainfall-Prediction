@@ -5,6 +5,7 @@ Overview
 This project predicts whether rainfall will occur based on weather parameters such as pressure, dew point, humidity, cloud coverage, sunshine, wind direction, and wind speed.
 
 Technologies Used
+
 Python
 Pandas
 NumPy
@@ -13,6 +14,7 @@ Matplotlib
 Seaborn
 
 Machine Learning Workflow
+
 Data Collection and Cleaning
 Missing Value Handling
 Exploratory Data Analysis (EDA)
@@ -24,6 +26,7 @@ Model Evaluation using Cross Validation and Accuracy Metrics
 Model Serialization using Pickle
 
 Features
+
 Weather data preprocessing
 Correlation analysis and visualization
 Random Forest based rainfall prediction
@@ -38,6 +41,7 @@ Used cross-validation to improve model generalization.
 Reduced bias caused by class imbalance through downsampling.
 
 Future Improvements
+
 SMOTE for class balancing
 PCA for dimensionality reduction
 Logistic Regression and other model comparisons
