@@ -1,13 +1,42 @@
 # Rainfall-Prediction
 
-Here are four key points about a rainfall prediction model using AI/ML:
+Overview
 
-Data Collection and Preprocessing: The model uses historical weather data, such as temperature, humidity, wind speed, atmospheric pressure, and previous rainfall records, which are cleaned and normalized for training.
+This project predicts whether rainfall will occur based on weather parameters such as pressure, dew point, humidity, cloud coverage, sunshine, wind direction, and wind speed.
 
-Feature Selection and Engineering: Relevant features are selected or engineered to ensure the model focuses on weather patterns and seasonal trends influencing rainfall, improving prediction accuracy.
+Technologies Used
+Python
+Pandas
+NumPy
+Scikit-learn
+Matplotlib
+Seaborn
+Machine Learning Workflow
+Data Collection and Cleaning
+Missing Value Handling
+Exploratory Data Analysis (EDA)
+Feature Selection
+Class Balancing using Downsampling
+Model Training using Random Forest Classifier
+Hyperparameter Tuning using GridSearchCV
+Model Evaluation using Cross Validation and Accuracy Metrics
+Model Serialization using Pickle
+Features
+Weather data preprocessing
+Correlation analysis and visualization
+Random Forest based rainfall prediction
+Hyperparameter optimization
+Prediction on new weather inputs
+Model saving and loading using Pickle
+Results
+Achieved reliable classification performance using Random Forest.
+Used cross-validation to improve model generalization.
+Reduced bias caused by class imbalance through downsampling.
+Future Improvements
+SMOTE for class balancing
+PCA for dimensionality reduction
+Logistic Regression and other model comparisons
+Deployment as a Flask/Web application
 
-Machine Learning Algorithms: Commonly used algorithms include decision trees, random forests, support vector machines (SVM), or deep learning models like LSTMs, which are capable of capturing temporal dependencies.
 
-Evaluation and Deployment: The model is evaluated using metrics like Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE) and then deployed via web or mobile apps to deliver predictions for agricultural or urban planning purposes.
-
-By: Prashant Kumar
+Author : Prashant Kumar
